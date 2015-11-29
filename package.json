@@ -1,0 +1,29 @@
+{
+  "name": "lazy-json",
+  "version": "0.0.1",
+  "description": "Write nice JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/lazy-json.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "EGOIST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/lazy-json/issues"
+  },
+  "homepage": "https://github.com/egoist/lazy-json#readme",
+  "dependencies": {
+    "strip-json-comments": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.6.1"
+  }
+}
