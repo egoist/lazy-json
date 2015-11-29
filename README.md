@@ -14,7 +14,7 @@ npm install --save lazy-json
 // test.lazy.json
 {
   // here is my comments
-  github: "oriented programming"
+  "github": "oriented programming"
   /* things all done
   ** go home
   */
