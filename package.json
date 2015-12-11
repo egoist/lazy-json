@@ -1,6 +1,6 @@
 {
   "name": "lazy-json",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Write nice JSON",
   "main": "index.js",
   "scripts": {

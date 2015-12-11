@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+.whatrc
 
 # Runtime data
 pids

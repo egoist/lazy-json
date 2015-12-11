@@ -1,8 +1,8 @@
 var fs = require('fs')
 var stripJSON = require('strip-json-comments')
 
-function requireJSON (file) {
-  if (!/\.json$/.test(file)) {
+function requireJSON (file, ignoreExtension) {
+  if (!ignoreExtension && !/\.json$/.test(file)) {
     file += '.json'
   }
   return parseJSON(fs.readFileSync(file, 'utf-8'))
