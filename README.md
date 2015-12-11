@@ -2,6 +2,8 @@
 
 lazy-json makes it happen to require JSON file with comments in it.
 
+It's awesome for `lazy-json` to work with Atom plugin [`language-json-comments`](https://atom.io/packages/language-json-comments)!
+
 ## Install
 
 ```bash
