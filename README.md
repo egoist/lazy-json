@@ -26,6 +26,9 @@ npm install --save lazy-json
 import { requireJSON } from 'lazy-json'
 const obj = requireJSON('./test.lazy')
 console.log(obj.github)
+
+// it's not ended with `.json`
+const obj = requireJSON('./.babelrc', true)
 ```
 
 ## Related
